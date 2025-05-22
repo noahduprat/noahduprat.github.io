@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Suez One';
+  src: url('SuezOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Suez One', serif;
+  color: #333;
+  display: flex;
+  min-height: 100vh;
+}
+
+aside {
+  width: 280px;
+  background-color: #ffffff;
+  color: #333;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+aside p {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+main {
+  flex: 1;
+  padding: 60px;
+  background-color: #117D6C;
+  color: white;
+}
+
+main p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.img_texte {
+    width: 50%;
+    height: 50%;
+    margin: 20px 20px;
+}

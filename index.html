@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Jeux Vidéo - Accueil</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Jeux Vidéo - Accueil</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="top-bar">
-        <button class="live-btn">voir les directs (1)</button>
-        <img src="L_Equipe_Logo.svg.webp" alt="Logo L'Équipe" class="logo">
-        <div class="top-right">
-            <button class="subscribe-btn"> je m'abonne à L'Équipe</button>
-            <span class="profile-icon"><img href="bonhomme.png"></span>
-        </div>
-    </header>
+  <header class="top-bar">
+    <button class="live-btn">voir les directs (0)</button>
+    <img src="L_Equipe_Logo.svg.webp" alt="Logo L'Équipe" class="logo">
+    <div class="top-right">
+      <button class="subscribe-btn">je m'abonne à L'Équipe</button>
+      <span class="profile-icon"><img src="bonhomme.png" class="icon-img"></span>
+    </div>
+  </header>
 
-    <div class="container">
+  <div class="container">
         <aside class="sidebar">
             <nav>
                 <ul>
-                    <li class="active">🔍 parcourir</li>
-                    <li><img href="accueil.png"> accueil</li>
-                    <li><img href="chrono.png"> chrono</li>
-                    <li><img href="direct"> directs</li>
-                    <li><img href="TV.png"> TV</li>
-                    <li><img href="journal.png"> le journal</li>
-                    <li><img href="jeux.png"> jeux</li>
+                    <li><img src="parcourir.png" class="icon-img">parcourir</li>
+                    <li><img src="accueil.png" class="icon-img" class="active"> accueil</li>
+                    <li><img src="chrono.png" class="icon-img"> chrono</li>
+                    <li><img src="direct.png" class="icon-img"> directs</li>
+                    <li><img src="TV.png" class="icon-img"> TV</li>
+                    <li><img src="journal.png" class="icon-img"> le journal</li>
+                    <li><img src="jeux.png" class="icon-img"> jeux</li>
                 </ul>
             </nav>
             <div class="bottom">
                 <ul>
-                    <li><img href="réglages.png"> réglages</li>
+                    <li><img src="reglages.png" class="icon-img"> réglages</li>
                 </ul>
             </div>
         </aside>
+    <main class="content">
 
-     <main class="content">
-
-        <div class="news-section">
-                    <div class="onglet-barre">
-            <button class="onglet actif">Histoire</button>
-            <button class="onglet">Métiers</button>
-            <button class="onglet">Grandes enseignes</button>
-        </div>
-
-            <h2>Trois passages sur la Butte Montmartre</h2>
-            <p>Résumé de l'étape du Tour de France...</p>
-            <p>Essayez nos mini-jeux en ligne !</p>
-        </div>
+      <div class="news-section">
+            <div class="onglet-barre">
+                <a href="histoire.html" class="onglet" id="onglet-histoire">Histoire</a>
+                <a href="metiers.html" class="onglet" id="onglet-metiers">Métiers</a>
+                <a href="enseignes.html" class="onglet" id="onglet-enseignes">Grandes enseignes</a>
+            </div>      
+       
+        <center><img class="img_texte" src="Video-Games-banniere.jpg"></center>
+        <p>Chers lecteurs, chères lectrices,</p>
+        <p>À l’occasion du Mid-Season Invitational (MSI) de <em>League of Legends</em>, <em>L’Équipe</em> s’associe à Blabladoc pour vous proposer une section spéciale dédiée à l’univers des jeux vidéo. Que vous soyez un grand passionné ou que vous n’ayez jamais touché à une manette de votre vie, cette rubrique a été pensée pour vous faire découvrir, ou redécouvrir, un monde fascinant qui fait aujourd’hui partie intégrante de notre quotidien.</p>
+        <p>Depuis plus de cinquante ans, les jeux vidéo occupent une place croissante dans nos vies, tant sur le plan du divertissement que de la culture. Ce dossier vous propose un véritable voyage à travers le temps, avec un retour sur les titres les plus marquants de l’histoire du jeu vidéo, de leurs graphismes simplistes des débuts aux expériences ultra-réalistes d’aujourd’hui. En parallèle, vous découvrirez comment les méthodes de programmation et les outils techniques ont évolué, transformant les possibilités offertes aux créateurs et la manière dont nous jouons.</p>
+        <p>L’univers vidéoludique, c’est aussi un monde professionnel en pleine expansion. De nombreux métiers ont émergé grâce à cette industrie : <a href="game_designer.html"><b>Game Designer</b></a>, créateur de jeux, testeur, <a href="streaming.html"><b>streamer</b></a>, <a href="Joueur_pro.html"><b>joueur professionnel</b></a>… Nous vous invitons à découvrir leurs coulisses à travers des portraits et interviews, pour mieux comprendre ce qui se cache derrière les écrans et les claviers.</p>
+        <p>Enfin, impossible d’évoquer cet univers sans parler des acteurs majeurs qui l’ont façonné. Du Japon aux États-Unis, en passant par la France, certaines entreprises ont marqué l’histoire du jeu vidéo et continuent de l’influencer aujourd’hui. Nintendo, EA Sports, Ubisoft… Ces noms vous disent sûrement quelque chose, mais savez-vous réellement ce qu’ils ont apporté au monde du jeu ?</p>
+        <p>Que vous soyez curieux, nostalgique ou simplement à la recherche d’un nouvel angle sur ce phénomène culturel, cette section spéciale est faite pour vous. Bonne lecture et bonne exploration de cet univers aussi riche que passionnant.</p>
+        <center><p>© 2025 - <a href="qui_sommes_nous.html" title="Qui sommes-nous ?">BlaBlaDoc</a></p></center>
+      </div>
     </main>
-
-    <script src="script.js"></script>
+  </div>
 </body>
 </html>
