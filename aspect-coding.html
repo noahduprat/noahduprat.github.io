@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeux Vidéo - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-bar">
+        <button class="live-btn">voir les directs (1)</button>
+        <img src="L_Equipe_Logo.svg.webp" alt="Logo L'Équipe" class="logo">
+        <div class="top-right">
+            <button class="subscribe-btn"> je m'abonne à L'Équipe</button>
+            <span class="profile-icon"><img src="bonhomme.png"class="icon-img"></span>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><img src="parcourir.png" class="icon-img">parcourir</li>
+                    <li><img src="accueil.png" class="icon-img"> accueil</li>
+                    <li><img src="chrono.png" class="icon-img"> chrono</li>
+                    <li><img src="direct.png" class="icon-img"> directs</li>
+                    <li><img src="TV.png" class="icon-img"> TV</li>
+                    <li><img src="journal.png" class="icon-img"> le journal</li>
+                    <li><img src="jeux.png" class="icon-img"> jeux</li>
+                </ul>
+            </nav>
+            <div class="bottom">
+                <ul>
+                    <li><img src="reglages.png" class="icon-img"> réglages</li>
+                </ul>
+            </div>
+        </aside>
+
+     <main class="content">
+
+        <div class="news-section">
+            <div class="onglet-barre">
+                <p><a href="index.html" class="onglet" id="onglet-index">Accueil</a> &lt; </p> 
+                <p><a href="histoire.html" class="onglet" id="onglet-histoire">Histoire</a> &lt; </p>
+                <p><a href="aspect-coding.html" class="onglet" id="onglet-aspect-coding">Programmation</a></p>
+            </div>
+
+            <h1>Evolution de la programmation de jeux vidéo</h1>
+            <p>Depuis les origines des jeux vidéos, la programmation a toujours joué un rôle crucial dans la création et le fonctionnement de ces jeux. Au départ, la création de ces jeux était réservée à une poignée d’ingénieurs capables d’écrire du code en langage machine sur les tous premiers ordinateurs. Au fil des années, avec les avancées technologiques, le codage a évolué pour être plus accessible et de nos jours, même des personnes lambda sont capables de créer des jeux.</p>
+            <p>Nous allons donc retracer l’évolution des jeux vidéos en mettant un accent sur les différents langages utilisés à chaque période :</p>
+
+                <style>@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');</style>
+                <!--This is the main container that contains the whole timeline.-->
+                <section class="design-section">
+                <div class="timeline">
+
+                        <!--Well, The reason for this div is to fill space. Années 1950-1970 : à gauche -->
+                <div class="timeline-component timeline-content">
+                <h3>Années 1950-1970 : Les débuts</h3>
+                    <center><img class="img_timeline" src="PDP-1.jpg"></center>
+                    <p>Les premiers jeux comme “Tennis for two” et “Spacewar” étaient développés par des chercheurs ou bien des ingénieurs sur les premiers ordinateurs. Le code était écrit en langage assembleur ou machine qui sont considérés comme “bas” niveau, ce code étant majoritairement en binaire (0 ou 1). Il n’y avait pas de console pour jouer, donc on jouait à Tennis for two sur un oscilloscope (instrument pour mesurer une tension) et Spacewar sur le premier ordinateur PDP-1.</p>
+                </div>
+                <div class="timeline-middle"><div class="timeline-circle"></div></div>
+                <div class="timeline-empty"></div>
+
+                <!-- Années 1980 : à droite -->
+                <div class="timeline-empty"></div>
+                <div class="timeline-middle"><div class="timeline-circle"></div></div>
+                <div class="timeline-component timeline-content">
+                <h3>Années 1980</h3>
+                    <p>Bien que de nouveaux langages comme BASIC soient apparus, le langage assembleur reste important pour la création de certains jeux clés comme Super Mario Bros sur NES (Nintendo Entertainment System) et Pac-man sur arcade. Le langage BASIC devient populaire sur les micro-ordinateurs et la création de jeux comme Manic Miner. Ce langage permet le hobby coding mais les jeux commerciaux nécessitent encore du code de “bas” niveau.</p>
+                </div>
+
+                <!-- Années 1990 : à gauche -->
+                <div class="timeline-component timeline-content">
+                <h3>Années 1990</h3>
+                    <center><img class="img_timeline" src="Doom.webp"></center>
+                    <p>Dans les années 90, on a une grande avancée avec le C et le C++ qui permettent d’innover le monde du jeu vidéo. Doom, sorti en 1993 est codé en C, et est l’un des premiers à faire de la pseudo 3D, donc de la 2.5D. Dans le jeu, les murs sont en 3D mais les ennemis et les objets sont en 2D orientés vers la caméra.</p>
+                </div>
+                <div class="timeline-middle"><div class="timeline-circle"></div></div>
+                <div class="timeline-empty"></div>
+
+                <!-- à droite -->
+                 <div class="timeline-empty"></div>
+                    <div class="timeline-middle"><div class="timeline-circle"></div></div>
+                    <div class="timeline-component timeline-content">
+                    <h3>Années 2000-2010</h3>
+                    <p>Dans les années 2000, les jeux Flash deviennent très populaires, ces jeux sont écrits en ActionScript qui est assez proche du JavaScript et Adobe Flash contenait le tout car il permettait de créer des animations interactives, tout ça simplement sur un navigateur. Cela a permis la création de jeux très connus comme “Bloons”, “Happy wheels” ou bien “Age of war”.</p>
+                    <p>C’est une sorte de révolution car elle a permis à quasiment tout le monde de créer des jeux même avec peu de connaissances en programmation ainsi que de faire des jeux très rapidement.</p>
+                </div>
+                
+                <!--à gauche-->
+                <div class="timeline-component timeline-content">
+                    <h3>Années 2010-2020</h3>
+                    <p>Durant cette période, on avance autant au niveau graphisme, moteur et rendu mais aussi au niveau modding, IA et quêtes. Skyrim, qui est majoritairement fait en C++ et en papyrus (utilisé pour la modélisation), réinvente le monde ouvert, avec des PNJs (personnage non joueur) qui réagissent en fonction du joueur. Si l’on tire une flèche sur un des PNJ, forcément il deviendra hostile envers le joueur, les PNJs ne sont donc plus du décor mais des membres à part entière de l'univers.</p>
+                    <p>Skyrim est aussi l’un des premiers jeu à faire appel à la communauté, en effet il laisse la porte ouverte pour les mods, c’est-à-dire que les joueurs peuvent changer le jeu comme bon leur semble. Que ce soit d’ajouter un personnage d’un autre univers ou totalement changer comment le jeu fonctionne, les mods peuvent tout faire. Grâce à cela, Skyrim est toujours beaucoup joué de nos jours et possède une quantité de contenu infini.</p>
+                    </div>
+                    <div class="timeline-middle"><div class="timeline-circle"></div></div>
+                    <div class="timeline-empty"></div>
+                </div>
+
+                <!--à droite-->
+                <div class="timeline-empty"></div>
+                <div class="timeline-middle"><div class="timeline-circle"></div></div>
+                <div class="timeline-component timeline-content">
+                    <h3>Années 2020 à nos jours</h3>
+                    <p>De nos jours, le coding continue à évoluer rapidement avec l’IA, Unreal Engine 5 ou bien Lua. Par exemple, Microsoft Flight Simulator utilise l’IA et le cloud pour reproduire la Terre entière en 3D. D’autres jeux comme Dead by Daylight ont aussi amélioré leur moteur, ils sont passés de Unreal Engine 4 à 5 pour rendre le jeu plus beau.</p>
+                </div>
+                <center><p>© 2025 - <a href="qui_sommes_nous.html" title="Qui sommes-nous ?">BlaBlaDoc</a></p></center>
+                </div>
+            </div>
+    </main>
+    </div>
+</body>
+</html>

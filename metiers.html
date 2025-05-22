@@ -1,55 +1,57 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Jeux Vidéo - Accueil</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Jeux Vidéo - Métiers</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="top-bar">
-        <button class="live-btn">voir les directs (1)</button>
-        <img src="L_Equipe_Logo.svg.webp" alt="Logo L'Équipe" class="logo">
-        <div class="top-right">
-            <button class="subscribe-btn"> je m'abonne à L'Équipe</button>
-            <span class="profile-icon">👤</span>
-        </div>
-    </header>
+  <header class="top-bar">
+    <button class="live-btn">voir les directs (1)</button>
+    <img src="L_Equipe_Logo.svg.webp" alt="Logo L'Équipe" class="logo">
+    <div class="top-right">
+      <button class="subscribe-btn">je m'abonne à L'Équipe</button>
+      <span class="profile-icon"><img src="bonhomme.png" class="icon-img"></span>
+    </div>
+  </header>
 
-    <div class="container">
+  <div class="container">
         <aside class="sidebar">
             <nav>
                 <ul>
-                    <li class="active">🔍 parcourir</li>
-                    <li>🏠 accueil</li>
-                    <li>🕒 chrono</li>
-                    <li>📺 directs</li>
-                    <li>📺 TV</li>
-                    <li>📰 le journal</li>
-                    <li>🎮 jeux</li>
+                    <li><img src="parcourir.png" class="icon-img">parcourir</li>
+                    <li><img src="accueil.png" class="icon-img"> accueil</li>
+                    <li><img src="chrono.png" class="icon-img"> chrono</li>
+                    <li><img src="direct.png" class="icon-img"> directs</li>
+                    <li><img src="TV.png" class="icon-img"> TV</li>
+                    <li><img src="journal.png" class="icon-img"> le journal</li>
+                    <li><img src="jeux.png" class="icon-img"> jeux</li>
                 </ul>
             </nav>
             <div class="bottom">
                 <ul>
-                    <li>⚙️ réglages</li>
+                    <li><img src="reglages.png" class="icon-img"> réglages</li>
                 </ul>
             </div>
         </aside>
-
-     <main class="content">
-
-        <div class="news-section">
-                    <div class="onglet-barre">
-            <button class="onglet actif">Histoire</button>
-            <button class="onglet">Métiers</button>
-            <button class="onglet">Grandes enseignes</button>
-        </div>
-
-            <h2>Trois passages sur la Butte Montmartre</h2>
-            <p>Résumé de l'étape du Tour de France...</p>
-            <p>Essayez nos mini-jeux en ligne !</p>
-        </div>
+    <main class="content">
+      <div class="news-section">
+            <div class="onglet-barre">
+                <p><a href="index.html" class="onglet" id="onglet-index">Accueil</a> &lt; </p> 
+                <p><a href="metiers.html" class="onglet" id="onglet-metiers">Métiers</a></p>
+            </div>
+            <div class="onglet-barre">
+                <a href="streaming.html" class="onglet" id="onglet-streaming">Streamer</a>
+                <a href="game_designer.html" class="onglet" id="onglet-game_designer">Game designer</a>
+                <a href="Joueur_pro.html" class="onglet" id="onglet-Joueur_pro">Joueur pro</a>
+            </div>
+        <h2>Les métiers dans le jeu vidéo</h2>
+        <p>L’industrie du jeu vidéo ne se limite plus à la simple création de jeux : elle a donné naissance à un large panel de métiers, à la croisée de la technologie, du divertissement et de la créativité. Parmi les rôles les plus emblématiques, le <b>Game Designer</b> occupe une place centrale : c’est lui qui imagine les mécaniques de jeu, les règles, les niveaux, et l’expérience globale du joueur. À ses côtés, les programmeurs, artistes, scénaristes et testeurs collaborent pour donner vie à des univers interactifs toujours plus immersifs.</p>
+        <p>Mais les carrières de l’univers vidéoludique ne se cantonnent pas aux studios de développement : avec l’essor du streaming et de l’e-sport, de nouveaux métiers ont émergé. Les <b>streamers</b>, par exemple, créent du contenu en direct sur des plateformes comme Twitch ou YouTube, fidélisant des communautés parfois gigantesques de plusieurs millions de followers, grâce à leur personnalité et leur expertise.</p>
+        <p>Les <b>joueurs professionnels</b> (ou athlètes d’e-sport) font de la compétition leur métier, participant à des tournois internationaux, souvent sponsorisés et médiatisés. Ces parcours témoignent de la richesse et de la mutation constante d’un secteur où passion, compétence et innovation se rencontrent au quotidien.</p>
+        <center><p>© 2025 - <a href="qui_sommes_nous.html" title="Qui sommes-nous ?">BlaBlaDoc</a></p></center>
+      </div>
     </main>
-
-    <script src="script.js"></script>
+  </div>
 </body>
 </html>
